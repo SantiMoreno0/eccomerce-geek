@@ -1,0 +1,143 @@
+body{
+    font-family: 'Bangers', cursive;
+
+}
+
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    background: #3b3b3b;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    border:2px solid #bbbb00;
+}
+
+.nav__boton{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #7db0ee;
+    border-radius: 10px;
+    color: #7db0ee;
+    margin-right: 30px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 40px;
+}
+
+.parte_superior{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-size: 35px;
+    color:#0e3667;
+    margin: 60px;
+}
+
+.btn_producto{
+    margin: 60px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    background: #d1d1d1;
+}
+
+.productos__img{
+    height: 110px;
+    border: 2px solid #0f87ff;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+.contactame{
+    color: #bbbb00;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container__form{
+    margin-top: 30px;
+    display: grid;
+    width: 60%;
+    margin:  0 auto;
+}
+
+.form__input{
+    height: 20px;
+    padding: 10px;
+    font-family: inherit;
+    margin-bottom: 7px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form__input:focus{
+    border-bottom: 3px solid #fdfd00;
+}
+
+.form__mensaje{
+    height: 150px;
+    font-family: inherit;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    resize: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.form__mensaje:focus{
+    border-bottom: 3px solid #fdfd00;
+    transition: 0.5s;
+}
+
+.form__cta{
+    width: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 40px;
+    font-size: 15px;
+}

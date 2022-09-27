@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav1">
+            <img src="img/logo.png" alt="logo" class="logo">
+        </ul>
+        <ul class="nav2">
+            <li></li>
+            <a href="index.html"class="nav__boton">Volver al inicio</a>
+        </ul>
+    </nav>
+    <main>
+        <form class="form" >
+            <h1 class="contactame">Agregar Producto</h1>
+            <div class="container__form">
+                <label for="myfile">Selecciona una imágen</label>
+                <input type="file" class="form__input" id="input__archivo" name="myfile" required>
+                <select name="car" placeholder="Selecciona un tipo de producto">
+                    <option>Camiseta</option>
+                    <option>Pelota</option>
+                    <option>Botin</option>
+                  </select>
+                <input type="text" id="input__nombre" class="form__input" placeholder="Nombre" required maxlength="20">
+                <input id="input__precio" class="form__input" placeholder="Precio" type="number" name="text" required> 
+                <textarea id="input__mensaje" name="" class="form__mensaje" cols="30" rows="10" placeholder="Descripción" maxlength="150"></textarea>
+                <input type="submit" value="Enviar" class="form__cta">
+            </div>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+//action="producto_cargado.html"

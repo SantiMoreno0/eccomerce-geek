@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav1">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <input type="search" class="search" placeholder="Buscar">
+            </ul>
+            <ul class="nav2">
+                <li></li>
+                <a href="login.html"class="nav__boton">Iniciar Sesion</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <section class="seccion1">
+                <div class="banner__promocion">
+                    <h1 class="banner__promocion__titulo">Promoción día del niño: 50% OFF en camisetas</h1>
+                    <a class="banner__promocion__link" href="camisetas.html">Ver Camisetas</a>
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="banner__promocion">
+                    <h1 class="banner__promocion__titulo">2X1 Botines Adidas</h1>
+                    <a class="banner__promocion__link" href="camisetas.html">Ver Botines</a>
+                </div>
+            </section>
+        </div>
+        <div class="productos">
+            <div class="productos__camisetas">
+                <div class="productos__superior">
+                    <h3 class="productos__titulo">Camisetas</h3>
+                    <a href="todo.html" class="productos__ver">Ver todo</a>
+                </div>
+                <div class="productos__galeria">
+                    <a class="link" href="producto.html">
+                        <img class="productos__img" class="productos__img" src="img/liverpool.jpg" alt="camiseta-liverpool">
+                    </a>
+                    <img class="productos__img" src="img/barcelona.jpg" alt="">
+                    <img class="productos__img" src="img/spurs.jpg" alt="">
+                    <img class="productos__img" src="img/real.png" alt="">
+                    <img class="productos__img" src="img/milan.jpg" alt="">
+                    <img class="productos__img" src="img/city.jpg" alt="">
+                </div>
+            </div>
+            <div class="productos__botines">
+                <div class="productos__superior">
+                    <h3 class="productos__titulo">Botines</h3>
+                    <a href="todo.html" class="productos__ver">Ver todo</a>
+                </div>
+                <div class="productos__galeria">
+                    <img class="productos__img" src="img/botin.jpg" alt="botin-nike">
+                    <img class="productos__img" src="img/botinPuma.jpg" alt="botin-nike">
+                    <img class="productos__img" src="img/botin4.jpg" alt="botin-nike">
+                    <img class="productos__img" src="img/botin5.jpg" alt="botin-nike">
+                    <img class="productos__img" src="img/botin6.jpg" alt="botin-nike">
+                    <img class="productos__img" src="img/botin7.webp" alt="botin-nike">
+                </div>
+            </div>
+            <div class="productos__pelotas">
+                <div class="productos__superior">
+                    <h3 class="productos__titulo">Pelotas</h3>
+                    <a href="todo.html" class="productos__ver">Ver todo</a>
+                </div>
+                <div class="productos__galeria">
+                    <img class="productos__img" src="img/pelota.jpg" alt="pelota">
+                    <img class="productos__img" src="img/pelota2.webp" alt="pelota">
+                    <img class="productos__img" src="img/pelota3.webp" alt="pelota">
+                    <img class="productos__img" src="img/pelota4.webp" alt="pelota">
+                    <img class="productos__img" src="img/pelota5.jpg" alt="pelota">
+                    <img class="productos__img" src="img/pelota6.jpg" alt="pelota">
+                </div>
+            </div>
+        </div>
+        <form class="form" action="mensaje.html">
+            <h1 class="contactame">Contactame</h1>
+            <div class="container__form">
+                <input type="text" id="input__nombre" class="form__input" placeholder="Nombre" required maxlength="40">
+                <input id="input__email" class="form__input" placeholder="Email" type="email" name="email" required> 
+                <textarea id="input__mensaje" name="" class="form__mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje aqui..." maxlength="120"></textarea>
+                <input type="submit" value="Enviar" class="form__cta">
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <h1>Desarrollado por Santiago Moreno - 2022</h1>
+    </footer>
+    </main>
+</body>
+</html>

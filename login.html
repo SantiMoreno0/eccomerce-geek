@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bases.css">
+    <title>Document</title>
+</head>
+<body>
+        <nav class="nav">
+            <ul class="nav1">
+                <img src="img/logo.png" alt="logo" class="logo">
+            </ul>
+            <ul class="nav2">
+                <li></li>
+                <a href="index.html"class="nav__boton">Volver al inicio</a>
+            </ul>
+        </nav>
+    <main>
+        <form class="form" action="index.html" id="contacto">
+            <h1 class="titulo__login">Iniciar Sesión</h1>
+            <div class="container__form">
+                <input type="email" class="form__input" placeholder="Email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="El mail debe tener el siguiente formato: xxxxxxx@xxxxx.xxx">
+                <input class="form__input" placeholder="Contraseña" type="password" name="password" required minlength="8">
+                <input type="submit" value="Enviar" class="form__cta">
+            </div>
+        </form>
+    </main>
+</body>
+</html>

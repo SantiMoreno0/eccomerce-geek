@@ -1,0 +1,110 @@
+body{
+    background-color: #414141;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    background: #1b1b1b;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    border:2px solid #bbbb00;
+}
+
+.nav__boton{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #bbbb00;
+    border-radius: 10px;
+    color: #bbbb00;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 40px;
+}
+
+.titulo__login{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+    color: #bbbb00;
+}
+
+.contactame{
+    color: #bbbb00;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container__form{
+    margin-top: 30px;
+    display: grid;
+    width: 40%;
+    margin:  0 auto;
+}
+
+.form__input{
+    height: 20px;
+    padding: 10px;
+    font-family: inherit;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form__input:focus{
+    border-bottom: 3px solid #fdfd00;
+}
+
+.form__mensaje{
+    height: 150px;
+    font-family: inherit;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    resize: none;
+    outline: none;
+
+}
+
+.form__mensaje:focus{
+    border-bottom: 3px solid #fdfd00;
+    transition: 0.5s;
+}
+
+.form__cta{
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: inherit;
+    color: #bbbb00;
+    border: 2px solid #bbbb00;
+    border-radius: 10px;
+    text-align: center;
+    background: #1b1b1b;
+}

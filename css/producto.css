@@ -1,0 +1,111 @@
+.nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    background: #3b3b3b;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+}
+
+.nav__boton{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #7db0ee;
+    border-radius: 10px;
+    color: #7db0ee;
+    margin-right: 30px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 40px;
+}
+
+.contactame{
+    color: #0e3667;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container__form{
+    margin-top: 30px;
+    display: grid;
+    width: 40%;
+    margin:  0 auto;
+}
+
+.form__input{
+    height: 20px;
+    padding: 10px;
+    font-family: inherit;
+    margin-bottom: 7px;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#input__archivo{
+    width: 300px;
+    font-size: 15px;
+}
+
+.form__input:focus{
+    border-bottom: 3px solid #fdfd00;
+}
+
+.form__mensaje{
+    height: 150px;
+    font-family: inherit;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    resize: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.form__mensaje:focus{
+    border-bottom: 3px solid #fdfd00;
+    transition: 0.5s;
+}
+
+.form__cta{
+    width: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 40px;
+    font-size: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
